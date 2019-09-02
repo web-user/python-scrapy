@@ -20,12 +20,18 @@ $ tripadvisor_review scrape all reviews from hotel page
 </pre>
 
 **Project uses:**
-```-python 3v
+```
+-python 3v
 -mongodb 4.0
 -pip3
--chromdriver (for selenium)```
+-chromdriver (for selenium)
 
-```to launch spider:
-   'scrapy crawl <spider_name> -a start_url=https://www.tripadvisor.com.sg/Hotels-g293916-Bangkok-Hotels.html -a city=Bangkok' ```
+```
+
+```
+to launch spider:
+   'scrapy crawl <spider_name> -a start_url=https://www.tripadvisor.com.sg/Hotels-g293916-Bangkok-Hotels.html -a city=Bangkok' 
+
+   ```
 
 all spider stores data in mongodb
